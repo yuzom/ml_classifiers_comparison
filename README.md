@@ -1,6 +1,6 @@
 # ml_classifiers_comparison
 
-This program compares the accuracy, training time, test time, and memory usage of the three supervised machine learning models used for classification:
+This program compares the accuracy, training time, test time, and memory usage of the three supervised machine learning models used for classification on the iris dataset:
 
 * Logistic regression
 * K Nearest Neighbor
