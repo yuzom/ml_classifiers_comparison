@@ -20,7 +20,9 @@ Here are the results:
 | LogReg            | 0.933333 | 0.105661      | 0.000412  | 0.546875         |
 
 We run a default model and an optimized model for each machine learning model. The optimized models use grid search to find the most optimal hyper parameters for the model.
+
 It may be surprising that the default models are on par with or outperform the optimized models.
+
 This is because the optimized models split the training dataset further into internal training and validation datasets to optimize their hyper parameters, meaning they have less training data to work with through each training and cross validation cycle. Note that the iris dataset has only N=150 datapoints.
 
 
