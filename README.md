@@ -3,7 +3,7 @@
 This program compares the accuracy, training time, test time, and memory usage of three popular supervised machine learning models used for classification on the iris dataset:
 
 * Logistic regression
-* K Nearest Neighbor
+* K nearest neighbor
 * Support vector machine
 
 [Click here](https://github.com/yuzom/ml_classifiers_comparison/blob/main/ml_classifiers_comparison.ipynb) to see the code in action.
