@@ -19,12 +19,12 @@ Here are the results:
 | SVM_Optimized     | 0.977778 | 0.143163      | 0.000422  | 0.031250         |
 | LogReg            | 0.933333 | 0.105661      | 0.000412  | 0.546875         |
 
-
+<br>
 We run a default model and an optimized model for each machine learning algorithm. The optimized models use grid search to find the most optimal hyper parameters.
 
 It may be surprising that the default models are on par with or outperform the optimized models.
 
-This is because the optimized models split the training dataset further into internal training and validation datasets to optimize their hyper parameters. This means they have less training data to work with through each training and cross validation cycle compared to the default model. This is observed for small datasets like the iris dataset (N=150) that we use here.
+This is because the optimized models split the training dataset further into internal training and validation datasets to optimize their hyper parameters. This means the optimized models have less training data to work with through each training and cross validation cycle compared to the default model. This is observed for small datasets like the iris dataset (N=150) that we use here.
 
 Therefore, we conclude that for the iris dataset, it is not worth running hyper parameter optimization. Let's rank the performance of each model:
 * For accuracy: SVM > KNN > LogReg
